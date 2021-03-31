@@ -1,0 +1,10 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "username": "postgres",
+    "password": "1",
+    "database": "postgres",
+    "entities": [
+        "./src/data/models/*.ts"
+    ]
+}

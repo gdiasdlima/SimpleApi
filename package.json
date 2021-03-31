@@ -1,0 +1,30 @@
+{
+  "name": "SimpleApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "ts-node-dev": "^1.1.6",
+    "typeorm": "^0.2.32"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdiasdlima/SimpleApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdiasdlima/SimpleApi/issues"
+  },
+  "homepage": "https://github.com/gdiasdlima/SimpleApi#readme"
+}
