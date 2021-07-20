@@ -1,4 +1,3 @@
-import { resolve } from "node:path"
 import { User } from "../../domain/models/user"
 import { CreateUserUseCase } from "../../domain/useCases/createUser"
 

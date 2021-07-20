@@ -1,4 +1,4 @@
-import { Validator } from "../../../validation/validator"
+import { Validator } from "../../validation/Validator"
 
 export const makeValidator = (): Validator => {
   class ValidatorStub implements Validator {

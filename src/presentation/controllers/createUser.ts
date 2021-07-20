@@ -1,8 +1,8 @@
-import { Validator } from '../../../validation/Validator';
 import { Controller } from '../contracts/controller'
 import { HttpRequest, HttpResponse } from '../contracts/http';
 import { CreateUserUseCase } from '../../domain/useCases/createUser'
 import { badRequest, success, serverError } from '../contracts/httpHelper'
+import { Validator } from '../../validation/Validator';
 
 export class CreateUserController implements Controller {
     constructor(

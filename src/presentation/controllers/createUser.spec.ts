@@ -1,8 +1,8 @@
-import { Validator } from "../../../validation/validator";
 import { User } from "../../domain/models/user";
 import { CreateUserUseCase } from "../../domain/useCases/createUser";
 import { makeCreateUserUseCase } from "../../tests/factories/createUseCaseFactory";
 import { makeValidator } from "../../tests/factories/validatorFactory";
+import { Validator } from "../../validation/Validator";
 import { HttpRequest } from "../contracts/http";
 import { badRequest, serverError, success } from "../contracts/httpHelper";
 import { MissingParamError } from "../errors/missingParamError";

@@ -1,6 +1,6 @@
-import { Validator } from "../../../../validation/Validator"
-import { ValidatorComposite } from "../../../../validation/validator/validatorComposite"
-import { RequiredFieldValidator } from '../../../../validation/validator/requiredField'
+import { Validator } from "../../../validation/Validator"
+import { ValidatorComposite } from "../../../validation/validator/validatorComposite"
+import { RequiredFieldValidator } from '../../../validation/validator/requiredField'
 
 export const makeCreateUserValidator = (): ValidatorComposite => {
   const validations: Validator[] = []
