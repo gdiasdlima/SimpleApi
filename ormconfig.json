@@ -3,7 +3,7 @@
     "host": "localhost",
     "username": "postgres",
     "password": "1",
-    "database": "postgres",
+    "database": "someDatabase",
     "entities": [
         "./src/data/models/*.ts"
     ]
